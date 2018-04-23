@@ -1,8 +1,54 @@
 /*去除浏览器自带的样式*/
-html,body,h1,h2,h3,p,ol,ul,li,a{
-    padding:0px;
-    border:0px;
-    margin:0px;
+/*html,body,h1,h2,h3,p,ol,ul,li,a{*/
+    /*padding:0px;*/
+    /*border:0px;*/
+    /*margin:0px;*/
+/*}*/
+body{
+    background-color: #efe9da;
+    background-image: url("image/beijing.jpg");
+    background-position: center top;
+}
+#container{
+    width: 1000px;
+    margin: 0px auto;
+    background: #a16959;
+}
+#header{
+    height: 120px;
+    margin: 20px 30px;
+    background: blue;
+ }
+#main{
+    height: 600px;
+    background: #efe9da;
+}
+#footer{
+    height: 120px;
+    background: #7a753c;
+}
+#rside{
+    width: 300px;
+    height: 600px;
+    float: right;
+    background: aqua;
+}
+#lside{
+    width: 700px;
+    height: 600px;
+    float: left;
+    background: #7a1e25;
+    clear: both;
+}
+.four{
+    width: 40%;
+    height: 40%;
+    float: left;
+    margin: 10px;
+    border: 20px solid rgba(200,200,200,0.5);
+    padding: 1px;
+    background: #50ee76;
+
 }
 /*一级标题样式*/
 h1{
@@ -20,61 +66,25 @@ h3{
     color: #013F7A;
     margin:10px;border-bottom: 1px;
 }
-/*段落样式*/
 p{
-    font-size:24px;
+    /*设置段落空几个像素*/
+    text-indent: 20px;
+    text-decoration: line-through;
+    font-style: italic;
+    color: orange;
 }
-/*超链接样式*/
-a{
-    text-decoration: none;
-    color:black;
+#img1{
+    width: 50px;
+    height: 50px;
 }
-/*link*/
-a:link{
-    color: darkblue;
+#touming{
+    background: red;
 }
-/*鼠标放超链接上面的样式*/
-a:hover{
-    text-decoration: underline;
-    color:darkred
-}
-a:active{
-    color: chartreuse;
-}
-a:visited{
-    color: #ff832c;
-}
-.nav a{
-    width: 60px;
-    color:#00B2C5;
-    text-decoration: none;
-}
-.nav li{
-    display:inline;
-    width: 10%;
-    height: 60px;
-}
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding:0;
-}
-.About{
-    list-style-type: disc;
-    text-align: center;
-}
-.About li{
-    float: left;
-}
-.header{
-    padding: 10px;
-    background: #efe9da;
-}
-.content{
-    width: 500px;
-    margin: 300px,auto,auto,auto;
-    text-align: center;
-    border: 20px;
-    solid-color: chartreuse;
 
-}
+
+
+
+
+
+
+
